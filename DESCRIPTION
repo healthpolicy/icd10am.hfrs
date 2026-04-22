@@ -11,18 +11,12 @@ Depends:
 Imports:
     icd10am.utils,
     dplyr,
-    tidyr,
     rlang,
-    magrittr,
-    stringr,
-    tibble,
     stats
 Suggests:
     testthat (>= 3.0.0),
-    knitr,
-    rmarkdown,
+    tidyr,
     pkgdown
-VignetteBuilder: knitr
 Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
